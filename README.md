@@ -15,13 +15,16 @@ This repository contains the source code for the official website, serving as bo
 - HTML5 → Structure of your pages (Home, Products, Demos, Investors).
 - CSS3 → Styling and layout (you can use plain CSS or a framework).
 - JavaScript (Vanilla JS) → Interactivity (menus, animations, demo embeds).
+  
 🔹 Styling Frameworks (Optional, for modern look)
 - Bootstrap → Easy responsive design, ready-made components.
 - TailwindCSS → Utility-first, trending for lightweight modern sites.
 - Font Awesome → Icons for navigation, product cards, etc.
+  
 🔹 Hosting & Deployment
 - GitHub Pages → Free hosting for static sites.
 - GoDaddy Domain → Point your purchased domain to GitHub Pages.
+  
 🔹 Extras (Optional Enhancements)
 - Markdown for content → If you want easy writing for blog/thoughts.
 - Netlify Forms (or GitHub Actions) → For investor contact forms.
