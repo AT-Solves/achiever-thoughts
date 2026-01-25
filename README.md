@@ -15,7 +15,4 @@ This repository contains the source code for the official website, serving as bo
 - Optional frameworks: Bootstrap / TailwindCSS for styling
 - Hosting: Netlify, GitHub Pages, or Vercel (free tiers)
 
-## 📦 Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/achiever-thoughts.git
+
