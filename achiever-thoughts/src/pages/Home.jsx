@@ -46,7 +46,7 @@ export default function Home() {
                         <div className="grid-3">
                             <article className="card">
                                 <img
-                                    src="../public/TEIcon.png"
+                                    src={`${import.meta.env.BASE_URL}TEIcon.png`}
                                     alt=""
                                     className="card-icon"
                                     aria-hidden="true"
@@ -60,7 +60,7 @@ export default function Home() {
 
                             <article className="card">
                                 <img
-                                    src="../public/SEIcon.png"
+                                    src={`${import.meta.env.BASE_URL}SEIcon.png`}
                                     alt=""
                                     className="card-icon"
                                     aria-hidden="true"
@@ -74,7 +74,7 @@ export default function Home() {
 
                             <article className="card">
                                 <img
-                                    src="../public/RPIcon.png"
+                                    src={`${import.meta.env.BASE_URL}RPIcon.png`}
                                     alt=""
                                     className="card-icon"
                                     aria-hidden="true"
