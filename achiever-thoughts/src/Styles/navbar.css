@@ -1,0 +1,87 @@
+/* =========================
+   NAVBAR (SITE HEADER)
+   ========================= */
+
+.navbar {
+    background-color: #2e2e2e;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar-inner {
+    max-width: var(--max-width);
+    margin: 10px;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* =========================
+   BRAND / LOGO
+   ========================= */
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.brand-logo {
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
+.brand-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* NAV LINKS */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+    .nav a {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+/* MENU TOGGLE */
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+        .nav.open {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            position: absolute;
+            top: 64px;
+            left: 0;
+            width: 100%;
+            background-color: #2e2e2e;
+            padding: 16px 24px;
+        }
+
+    .nav-toggle {
+        display: block;
+    }
+}
