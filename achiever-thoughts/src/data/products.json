@@ -1,0 +1,29 @@
+[
+  {
+    "id": "career-guidance",
+    "name": "Career Guidance AI",
+    "category": "Generative AI with RAG",
+    "description": "Helps students and professionals explore suitable career paths using structured prompts and knowledge retrieval.",
+    "url": "/careerguidance",
+    "github": "https://github.com/your-repo/career-guidance-ai",
+    "status": "Prototype"
+  },
+  {
+    "id": "resume-builder",
+    "name": "Resume Builder AI",
+    "category": "Generative AI",
+    "description": "Generates structured professional resumes using guided inputs and prompt engineering.",
+    "url": "/resumebuilder",
+    "github": "https://github.com/your-repo/resume-builder-ai",
+    "status": "Prototype"
+  },
+  {
+    "id": "idea-lab",
+    "name": "Idea Generation Lab",
+    "category": "Demonstration Tool",
+    "description": "Interactive AI prompts to explore ideas, personas, value propositions, and unmet needs.",
+    "url": "/ideagenerator",
+    "github": "https://github.com/your-repo/idea-lab-ai",
+    "status": "Prototype"
+  }
+]

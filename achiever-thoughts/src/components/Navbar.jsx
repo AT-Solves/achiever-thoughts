@@ -1,6 +1,6 @@
 ﻿import { useState } from "react";
 import "../styles/navbar.css";
-import logo from "../assets/ATLogo-Icon.png"; 
+import logo from "../assets/ATIcon-White.png"; 
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -8,14 +8,14 @@ export default function Navbar() {
     return (
         <header className="navbar">
             <div className="navbar-inner container">
-                {/*<a href="/#/" className="brand">*/}
-                {/*    <img*/}
-                {/*        src={logo}*/}
-                {/*        alt="Achiever Thoughts logo"*/}
-                {/*        className="brand-logo"*/}
-                {/*    />*/}
+                <a href="/#/" className="brand">
+                    <img
+                        src={logo}
+                        alt="Achiever Thoughts logo"
+                        className="brand-logo"
+                    />
                     
-                {/*</a>*/}
+                </a>
 
                 <button
                     className="nav-toggle"
@@ -26,9 +26,9 @@ export default function Navbar() {
                     Menu
                 </button>
 
-                <span className="brand-text">
-                    Achiever Thoughts
-                </span>
+                {/*<span className="brand-text">*/}
+                {/*    Achiever Thoughts*/}
+                {/*</span>*/}
 
                 <nav
                     className={`nav ${open ? "open" : ""}`}

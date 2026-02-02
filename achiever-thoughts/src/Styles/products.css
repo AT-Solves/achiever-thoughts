@@ -1,0 +1,33 @@
+/* =========================
+   PRODUCTS PAGE
+   ========================= */
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-meta {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+}
+
+.product-actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+@media (min-width: 640px) {
+    .product-actions {
+        flex-direction: row;
+    }
+}
+.product-status {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--text-muted);
+}
