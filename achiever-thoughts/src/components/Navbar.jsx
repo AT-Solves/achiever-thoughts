@@ -1,6 +1,7 @@
 ﻿import { useState } from "react";
 import "../styles/navbar.css";
 import logo from "../assets/ATIcon-White.png"; 
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false);
@@ -34,10 +35,15 @@ export default function Navbar() {
                     className={`nav ${open ? "open" : ""}`}
                     aria-label="Main navigation"
                 >
-                    <a href="/#/">Home</a>
-                    <a href="/#/products">Products</a>
-                    <a href="/#/demos">Demos</a>
-                    <a href="/#/investors">Investors</a>
+                    {/*<a href="/#/">Home</a>*/}
+                    {/*<a href="/#/products">Products</a>*/}
+                    {/*<a href="/#/demos">Demos</a>*/}
+                    {/*<a href="/#/investors">Investors</a>*/}
+
+                    <Link to="/">Home</Link>
+                    <Link to="/products">Products</Link>
+                    <Link to="/demos">Demos</Link>
+                    <Link to="/investors">Investors</Link>
                 </nav>
             </div>
         </header>
