@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import Demos from './pages/Demos';
 import Investors from './pages/Investors';
+import ProductRedirect from "./pages/ProductRedirect";
 
 function App() {
     return (

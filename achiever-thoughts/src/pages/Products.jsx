@@ -40,7 +40,12 @@ export default function Products() {
                                 </p>
 
                                 <div className="product-actions">
-                                    <a href={`/#${product.url}`} className="button-primary">
+                                    <a
+                                        href={product.url}
+                                        className="button-primary"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
                                         Launch Application
                                     </a>
                                     <a href={product.github} className="button-secondary" target="_blank">
